@@ -1,6 +1,6 @@
 source $VIMRUNTIME/vimrc_example.vim
 
-colorscheme slate
+colorscheme evening
 set rnu!
 set ai!
 set softtabstop =8
@@ -15,7 +15,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'scrooloose/nerdtree'
 call plug#end()
 
-map <C-n> :NERDTreeToggle /Desktop/laz_prog/<CR>
+map <C-n> :NERDTreeToggle <CR>
 map <C-y> "*yy <CR>
 
 set diffexpr=MyDiff()
