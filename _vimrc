@@ -1,6 +1,7 @@
 source $VIMRUNTIME/vimrc_example.vim
 
 colorscheme evening
+set hi Comment guifg=#888800
 set rnu!
 set ai!
 set softtabstop =8
