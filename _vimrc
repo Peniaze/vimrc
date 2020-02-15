@@ -1,5 +1,11 @@
 source $VIMRUNTIME/vimrc_example.vim
 
+if has('gui_running')
+    set guifont=Courier_New:h10
+endif
+
+set encoding=utf-8
+
 colorscheme evening
 hi Comment guifg=#888800
 set rnu!
